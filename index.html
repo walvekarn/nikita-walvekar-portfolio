@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nikita Walvekar — AI Product Manager | GenAI & Agentic Systems</title>
-<meta name="description" content="AI Product Manager with 9+ years delivering automation and analytics products in regulated environments, building GenAI and agentic systems since 2025." />
+<title>Nikita Walvekar | AI Product Manager | GenAI &amp; Agentic Systems</title>
+<meta name="description" content="AI Product Manager with 9+ years in regulated operations and hands-on GenAI builds. Ex-Wells Fargo, ex-Diageo. Open to AI PM and TPM roles." />
 <style>
   :root{
     --navy:#0a1929; --navy2:#0d2236; --ink:#06121e;
@@ -35,12 +35,11 @@
   .status{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.76rem;color:var(--muted);margin-bottom:26px}
   .dot{width:8px;height:8px;border-radius:50%;background:#3fbf6f;box-shadow:0 0 0 3px rgba(63,191,111,.18)}
   header.hero h1{font-size:clamp(2.4rem,6vw,4.3rem)}
-  header.hero h1 .g{color:var(--gold)}
   .lede{font-size:1.18rem;color:#cdd8e3;max-width:620px;margin:22px 0 10px}
   .sub{color:var(--muted);max-width:600px;margin-bottom:30px}
   .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
   .hero-strip{display:flex;gap:30px;flex-wrap:wrap;margin-top:54px;padding-top:30px;border-top:1px solid var(--line)}
-  .hs{min-width:130px}
+  .hs{min-width:130px;max-width:240px}
   .hs b{display:block;font-family:Georgia,serif;font-size:1.8rem;color:#fff}
   .hs span{font-size:.78rem;color:var(--muted)}
   /* SECTION */
@@ -51,51 +50,38 @@
   .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start}
   @media(max-width:820px){.about-grid{grid-template-columns:1fr}}
   .about-grid p{color:#cdd8e3;margin-bottom:16px}
-  .pull{border-left:3px solid var(--gold);padding:14px 18px;background:rgba(201,162,75,.06);border-radius:0 8px 8px 0;color:#fff;font-family:Georgia,serif;font-style:italic;font-size:1.05rem}
   .facts{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
   .facts div{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.08);font-size:.92rem}
-  .facts div:last-child{border:0}.facts span{color:var(--muted)}.facts b{color:#fff;text-align:right}
+  .facts div:last-child{border:0}.facts span{color:var(--muted);flex:0 0 auto}.facts b{color:#fff;text-align:right}
   /* METRICS */
   .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
   @media(max-width:820px){.metrics{grid-template-columns:repeat(2,1fr)}}
   .metric{background:linear-gradient(180deg,var(--card),var(--navy2));border:1px solid var(--line);border-radius:12px;padding:22px}
   .metric b{display:block;font-family:Georgia,serif;font-size:2rem;color:var(--gold-soft)}
   .metric span{font-size:.82rem;color:var(--muted)}
-  /* SERVICES */
-  .svc{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-  @media(max-width:820px){.svc{grid-template-columns:1fr}}
-  .svc-c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;transition:.2s}
-  .svc-c:hover{border-color:var(--gold);transform:translateY(-3px)}
-  .svc-c .n{font-family:Georgia,serif;color:var(--gold);font-size:1.1rem}
-  .svc-c h3{font-size:1.12rem;margin:8px 0 8px}
-  .svc-c p{color:var(--muted);font-size:.92rem}
-  /* PORTFOLIO */
+  /* WORK */
+  .tier{margin-top:34px}
+  .tier-h{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:14px}
   .grid3{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
   @media(max-width:820px){.grid3{grid-template-columns:1fr}}
   .proj{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column;gap:10px}
+  .proj.wide{grid-column:1/-1}
   .proj h3{font-size:1.1rem}
-  .proj p{color:var(--muted);font-size:.9rem;flex:1}
+  .proj p{color:var(--muted);font-size:.9rem}
+  .proj p b{color:#e7eef5}
+  .proj .fill{flex:1}
   .tags{display:flex;flex-wrap:wrap;gap:6px}
   .tag{font-size:.7rem;color:var(--gold-soft);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
-  .proj-links{display:flex;gap:14px;font-size:.82rem;margin-top:4px}
+  .proj-links{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;margin-top:4px}
   .impact{font-size:.82rem;color:#3fbf6f;font-weight:600}
+  .small-row{display:flex;gap:26px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
+  .small-row b{color:#fff;font-weight:600}
   /* TIMELINE */
   .tl{border-left:2px solid var(--line);margin-left:8px;padding-left:26px}
   .tl-i{position:relative;padding:14px 0}
   .tl-i::before{content:"";position:absolute;left:-34px;top:20px;width:11px;height:11px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px var(--navy)}
   .tl-i .yr{font-size:.76rem;color:var(--gold);letter-spacing:.08em;font-weight:700}
   .tl-i b{color:#fff}.tl-i .org{color:var(--muted)}
-  /* GATE0 */
-  #gate0{background:linear-gradient(180deg,var(--navy),var(--ink))}
-  .g0-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px}
-  @media(max-width:820px){.g0-grid{grid-template-columns:1fr}}
-  .g0-c{border:1px solid var(--line);border-radius:12px;padding:22px;background:rgba(255,255,255,.02)}
-  .g0-c h3{font-size:1rem;color:var(--gold-soft);margin-bottom:10px}
-  .g0-c ul{list-style:none}.g0-c li{padding:6px 0 6px 18px;position:relative;color:#cdd8e3;font-size:.92rem}
-  .g0-c li::before{content:"▸";position:absolute;left:0;color:var(--gold)}
-  .steps{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-  .step{flex:1;min-width:150px;border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--card)}
-  .step .s{color:var(--gold);font-size:.74rem;font-weight:700}.step b{display:block;color:#fff;margin:4px 0}.step span{color:var(--muted);font-size:.82rem}
   /* CONTACT */
   #contact{text-align:center}
   #contact h2{font-size:clamp(1.8rem,4vw,2.6rem)}
@@ -109,174 +95,155 @@
 <nav><div class="wrap">
   <div class="brand">Nikita <span>Walvekar</span></div>
   <div class="navlinks">
-    <a href="#about">About</a><a href="#impact">Impact</a><a href="#services">Product Skills</a>
-    <a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    <a href="#about">About</a><a href="#impact">Impact</a><a href="#work">Work</a>
+    <a href="#contact">Contact</a><a href="/Nikita_Walvekar_Resume_AI_PM.pdf" target="_blank" rel="noopener">Resume</a>
   </div>
-  <a class="btn" href="#work">View product work</a>
+  <a class="btn" href="/Nikita_Walvekar_Resume_AI_PM.pdf" download>Download resume</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
-  <div class="status"><span class="dot"></span> Open to AI Product Manager opportunities</div>
-  <h1>AI Product Manager.<br/><span class="g">GenAI &amp; agentic systems.</span><br/>Built for measurable outcomes.</h1>
-  <p class="lede">I lead AI products from discovery and PRD through build, evaluation, guardrails, and rollout — combining enterprise product ownership with hands-on technical depth.</p>
-  <p class="sub">9+ years delivering automation and analytics products in regulated environments across banking, pricing, payroll, and compliance; building GenAI and agentic systems since 2025.</p>
+  <div class="status"><span class="dot"></span> Open to AI PM / TPM roles · Bengaluru · remote</div>
+  <h1>AI product manager who builds what she specs.</h1>
+  <p class="lede">GenAI and agentic systems for regulated workflows. Evaluation, human oversight and audit trails designed in, not bolted on.</p>
+  <p class="sub">9+ years across banking, pricing, payroll and compliance operations. Ex-Wells Fargo, ex-Diageo. Building GenAI and agentic systems since 2025.</p>
   <div class="cta-row">
-    <a class="btn" href="#work">View selected work →</a>
-    <a class="btn ghost" href="https://github.com/walvekarn" target="_blank">GitHub</a>
-    <a class="btn ghost" href="https://www.linkedin.com/in/nikitaw3" target="_blank">LinkedIn</a>
+    <a class="btn" href="/Nikita_Walvekar_Resume_AI_PM.pdf" download>Download resume</a>
+    <a class="btn ghost" href="https://github.com/walvekarn" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/nikitaw3" target="_blank" rel="noopener">LinkedIn</a>
   </div>
   <div class="hero-strip">
-    <div class="hs"><b>9+</b><span>years across product, data &amp; operations</span></div>
-    <div class="hs"><b>AUD $12M</b><span>annual value · Diageo</span></div>
-    <div class="hs"><b>95%</b><span>GenAI POC test accuracy · Wells Fargo</span></div>
-    <div class="hs"><b>60%</b><span>pricing cycle-time reduction · Diageo</span></div>
+    <div class="hs"><b>9+</b><span>years in regulated ops &amp; AI</span></div>
+    <div class="hs"><b>AUD $12M</b><span>annual value, validated by finance · Diageo</span></div>
+    <div class="hs"><b>95%</b><span>test accuracy · $3M projected savings · Wells Fargo POC</span></div>
+    <div class="hs"><b>5</b><span>live demos · github.com/walvekarn</span></div>
   </div>
 </div></header>
 
 <section id="about"><div class="wrap">
-  <div class="eyebrow">AI Product Management</div>
-  <h2 class="sec-h">I work where product judgment, AI behavior, and operational risk meet.</h2>
+  <div class="eyebrow">About</div>
+  <h2 class="sec-h">Where product judgment, AI behaviour and operational risk meet.</h2>
   <div class="about-grid">
     <div>
-      <p>I'm an AI Product Manager with 9+ years delivering automation and analytics products in regulated environments. I have owned product discovery, requirements, PRDs, roadmaps, prioritization, evaluation, stakeholder alignment, and rollout across enterprise banking, pricing, payroll, and compliance workflows.</p>
-      <p>At Wells Fargo, I owned enterprise GenAI initiatives for U.S. Consumer Operations from problem discovery through POC, evaluation, validation, and production-readiness review. I built and evaluated a complaint-classification POC reaching 95% test accuracy with approximately USD $3M in projected annual savings for a 160-person operations team, and designed confidence-based human-in-the-loop routing, audit logging, and per-category evaluation.</p>
-      <p>At Diageo, I was product owner for SAP and Anaplan pricing platforms across APAC and Australia, including a Python-based reconciliation automation producing AUD $12M in annual value validated by finance.</p>
-      <div class="pull">Discovery → PRD → build → evals → guardrails → rollout.</div>
+      <p>I am an AI product manager with nine years inside regulated, audit-heavy environments: banking, pricing, payroll and consumer operations. Since 2025 I have been building GenAI and agentic systems, and I write the Python and TypeScript to prototype what I spec.</p>
+      <p>My edge is the seam where most AI projects stall. I am technical enough to build the system and evaluate it, and business-fluent enough to quantify it and get it through model-risk and compliance review. At Wells Fargo that meant a complaint-classification POC evaluated per category, not just on headline accuracy. At Diageo it meant AUD $12M in annual value validated by finance.</p>
+      <p>I am open to AI Product Manager and Technical Program Manager roles where AI is the core product.</p>
     </div>
     <div class="facts">
       <div><span>Name</span><b>Nikita Walvekar</b></div>
-      <div><span>Base</span><b>Bengaluru, India</b></div>
-      <div><span>Target</span><b>AI Product Manager</b></div>
-      <div><span>AI focus</span><b>GenAI · agents · evals · HITL</b></div>
-      <div><span>Technical</span><b>Python · FastAPI · SQL · TypeScript</b></div>
-      <div><span>Domains</span><b>Financial services · regulated operations</b></div>
-      <div><span>Education</span><b>IIM Raipur EDP · B.Com</b></div>
+      <div><span>Base</span><b>Bengaluru · open to remote and relocation</b></div>
+      <div><span>Focus</span><b>AI PM / TPM, regulated domains</b></div>
+      <div><span>Education</span><b>Executive Development Program, IIM Raipur (2019 to 2020) · B.Com, Dr. Babasaheb Ambedkar Marathwada University (2011 to 2014)</b></div>
+      <div><span>Certified</span><b>Certified Generative AI Mastermind, Outskill, 2025</b></div>
     </div>
   </div>
 </div></section>
 
 <section id="impact" style="background:var(--navy2)"><div class="wrap">
-  <div class="eyebrow">Business Impact</div>
-  <h2 class="sec-h">Product outcomes backed by numbers.</h2>
-  <p class="sec-i">Enterprise automation, AI evaluation, workflow redesign, and measurable operational impact.</p>
+  <div class="eyebrow">Impact</div>
+  <h2 class="sec-h">Outcomes backed by numbers.</h2>
   <div class="metrics">
-    <div class="metric"><b>AUD $12M</b><span>Annual value — SAP-to-Anaplan pricing automation, Diageo</span></div>
-    <div class="metric"><b>95%</b><span>Test accuracy — GenAI complaint-classification POC, Wells Fargo</span></div>
-    <div class="metric"><b>USD $3M</b><span>Projected annual savings — 160-person operations team, Wells Fargo</span></div>
-    <div class="metric"><b>60% / 35%</b><span>Pricing cycle-time reduction / control-effectiveness lift, Diageo</span></div>
+    <div class="metric"><b>AUD $12M</b><span>annual value, validated by finance · SAP-Anaplan pricing automation, Diageo</span></div>
+    <div class="metric"><b>95% · $3M</b><span>test accuracy · projected annual savings · GenAI complaint-classification POC, Wells Fargo</span></div>
+    <div class="metric"><b>60% / 35%</b><span>cycle-time cut / control-effectiveness lift · pricing operations, Diageo</span></div>
+    <div class="metric"><b>3 jurisdictions</b><span>risk engine · full audit trail · Agentic compliance assistant, public repo</span></div>
   </div>
 </div></section>
 
-<section id="services"><div class="wrap">
-  <div class="eyebrow">Product Strengths</div>
-  <h2 class="sec-h">AI product leadership with enough technical depth to test the system, not just describe it.</h2>
-  <p class="sec-i">The recurring capabilities across my enterprise work and public builds.</p>
-  <div class="svc">
-    <div class="svc-c"><div class="n">01</div><h3>Product strategy &amp; discovery</h3><p>Problem definition, customer and stakeholder discovery, PRDs, roadmaps, prioritization, OKRs, KPIs, and success metrics.</p></div>
-    <div class="svc-c"><div class="n">02</div><h3>GenAI &amp; agentic products</h3><p>LLMs, RAG, embeddings, AI agents, orchestration, prompt design, and workflow automation.</p></div>
-    <div class="svc-c"><div class="n">03</div><h3>LLM evaluation &amp; quality</h3><p>Per-category precision and recall, quality bars, failure analysis, benchmarking, escalation thresholds, cost and performance tradeoffs.</p></div>
-    <div class="svc-c"><div class="n">04</div><h3>Human oversight &amp; governance</h3><p>Confidence-based human review, audit trails, explainability, guardrails, risk controls, and responsible-AI patterns.</p></div>
-    <div class="svc-c"><div class="n">05</div><h3>Technical product delivery</h3><p>Hands-on fluency across Python, FastAPI, SQL, TypeScript, Next.js, Docker, Streamlit, REST APIs, and testing.</p></div>
-    <div class="svc-c"><div class="n">06</div><h3>Cross-functional execution</h3><p>Roadmaps, backlog management, release planning, risk and dependency management, Agile delivery, and senior stakeholder alignment.</p></div>
+<section id="work"><div class="wrap">
+  <div class="eyebrow">Work</div>
+  <h2 class="sec-h">Built and shipped under my own name</h2>
+  <p class="sec-i">Public repos at github.com/walvekarn. Live demos where deployed.</p>
+
+  <div class="tier">
+    <div class="tier-h">Case studies</div>
+    <div class="grid3">
+      <div class="proj">
+        <h3>Agentic AI Compliance Assistant</h3>
+        <div class="impact">Prototype · mock mode</div>
+        <p><b>Problem.</b> Compliance tasks across jurisdictions get the same manual review whether they are a calendar reminder or a legal filing.</p>
+        <p><b>Key decision.</b> A 6-factor risk engine gates three tiers of autonomy (autonomous / review / escalate), inside a Plan-Execute-Reflect loop with a full audit trail.</p>
+        <p><b>Result.</b> Working prototype with mock mode covering Singapore, UK and UAE, backed by a companion rules engine for 10+ jurisdictions, with curated risk scenarios and an automated pytest suite.</p>
+        <p class="fill"><b>Next.</b> Security hardening and broader test coverage before any real deployment.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Streamlit</span><span class="tag">LangChain</span><span class="tag">OpenAI</span></div>
+        <div class="proj-links"><a href="https://github.com/walvekarn/agentic-compliance-agent" target="_blank" rel="noopener">GitHub</a><a href="https://github.com/walvekarn/compliance-rules-engine" target="_blank" rel="noopener">Rules engine</a></div>
+      </div>
+      <div class="proj">
+        <h3>Legal PDF Extractor</h3>
+        <div class="impact">Pipeline with pytest suite</div>
+        <p><b>Problem.</b> Court filings arrive as PDFs with inconsistent layouts, and pulling structured fields out by hand is slow and error-prone.</p>
+        <p><b>Key decision.</b> Deterministic zone detection with per-field confidence and cross-validation, so every extracted value is explainable.</p>
+        <p><b>Result.</b> Modular document-AI pipeline with a pytest suite.</p>
+        <p class="fill"><b>Next.</b> Wider field coverage and more layout variants.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">pytest</span></div>
+        <div class="proj-links"><a href="https://github.com/walvekarn/legal-pdf-extractor" target="_blank" rel="noopener">GitHub</a></div>
+      </div>
+      <div class="proj wide">
+        <h3>GenAI complaint classification in a regulated bank: what the evaluation changed.</h3>
+        <div class="impact">Wells Fargo · GenAI POC · May 2025 to Feb 2026</div>
+        <p><b>Problem.</b> A 160-person U.S. consumer-operations team categorized complaints by hand, 3 to 5 minutes each, with inconsistent results that mattered for CFPB reporting.</p>
+        <p><b>Decision 1: evaluate per category, not on headline accuracy.</b> Overall test accuracy reached 95%. Broken out by category, precision and recall on low-volume fraud categories were well below the rest, and those are the highest-stakes complaints. The release criterion became a per-category quality bar.</p>
+        <p><b>Decision 2: route by confidence, per category.</b> Above the threshold the system classifies; below it, an analyst does. High-stakes categories got tighter thresholds and more human review.</p>
+        <p><b>Decision 3: log everything.</b> Every classification records the prompt version, the model output and the confidence, so any decision can be explained to a regulator after the fact.</p>
+        <p><b>Outcome.</b> 95% test accuracy, under 2 seconds per complaint, USD $3M projected annual savings in analyst time. Validated for production readiness.</p>
+        <p><b>What I would do differently.</b> Design the per-category evaluation on day one, and bring model-risk stakeholders into discovery instead of validation.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tier">
+    <div class="tier-h">Toolkit</div>
+    <div class="grid3">
+      <div class="proj wide">
+        <h3>Compliance ops toolkit</h3>
+        <div class="impact">3 live demos · 4 public repos</div>
+        <p class="fill">Four public repos for third-party risk teams: an exception tracker with audit trail and role-based actions, a vendor risk scorecard dashboard with escalation triggers, a multi-step vendor onboarding wizard with validation gates, and the compliance rules engine that powers the agent.</p>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Jest/Vitest</span><span class="tag">Python</span></div>
+        <div class="proj-links"><span class="impact">Live:</span><a href="https://compliance-exception-tracker.vercel.app" target="_blank" rel="noopener">Exception tracker</a><a href="https://vendor-risk-dashboard.vercel.app" target="_blank" rel="noopener">Risk dashboard</a><a href="https://vendor-onboard-stepper.vercel.app" target="_blank" rel="noopener">Onboarding</a></div>
+        <div class="proj-links"><span class="impact">Repos:</span><a href="https://github.com/walvekarn/compliance-exception-tracker" target="_blank" rel="noopener">compliance-exception-tracker</a><a href="https://github.com/walvekarn/vendor-risk-dashboard" target="_blank" rel="noopener">vendor-risk-dashboard</a><a href="https://github.com/walvekarn/vendor-onboard-stepper" target="_blank" rel="noopener">vendor-onboard-stepper</a><a href="https://github.com/walvekarn/compliance-rules-engine" target="_blank" rel="noopener">compliance-rules-engine</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tier">
+    <div class="tier-h">Also on GitHub</div>
+    <div class="small-row">
+      <div><b>ERP Connector Prototype</b> · <a href="https://github.com/walvekarn/erp-connector-prototype" target="_blank" rel="noopener">Repo</a> · <a href="https://erp-connector-prototype.vercel.app/connectors" target="_blank" rel="noopener">Live</a></div>
+      <div><b>AI Todo App</b> · <a href="https://github.com/walvekarn/todo-app-challenge" target="_blank" rel="noopener">Repo</a> · <a href="https://todo-app-challenge-two.vercel.app" target="_blank" rel="noopener">Live</a></div>
+    </div>
   </div>
 </div></section>
 
-<section id="work" style="background:var(--navy2)"><div class="wrap">
-  <div class="eyebrow">Selected Product Builds</div>
-  <h2 class="sec-h">Working prototypes, product artifacts, and live demos.</h2>
-  <p class="sec-i">These public projects demonstrate how I translate a product problem into requirements, workflows, evaluation logic, software, and evidence.</p>
-  <div class="grid3">
-    <div class="proj">
-      <h3>Agentic AI Compliance Assistant</h3>
-      <p>Multi-jurisdiction compliance agent with a 6-factor risk engine, Plan→Execute→Reflect loop, quality-threshold replanning, three-tier autonomy, audit trail, counterfactual analysis, and mock-mode support.</p>
-      <div class="impact">Working prototype · 80+ test scenarios</div>
-      <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Streamlit</span><span class="tag">LangChain</span><span class="tag">OpenAI API</span></div>
-      <div class="proj-links"><a href="https://github.com/walvekarn/agentic-compliance-agent" target="_blank">GitHub →</a><a href="https://github.com/walvekarn/compliance-rules-engine" target="_blank">Rules engine →</a></div>
-    </div>
-    <div class="proj">
-      <h3>Legal PDF Extractor</h3>
-      <p>Modular document-AI pipeline extracting structured fields from court filings with zone detection, confidence scoring, cross-validation, explainable rule-based extraction, and a passing test suite.</p>
-      <div class="impact">Working extraction pipeline · passing tests</div>
-      <div class="tags"><span class="tag">Python</span><span class="tag">pytest</span><span class="tag">Document AI</span><span class="tag">Validation</span></div>
-      <div class="proj-links"><a href="https://github.com/walvekarn/legal-pdf-extractor" target="_blank">GitHub →</a></div>
-    </div>
-    <div class="proj">
-      <h3>Compliance Ops Toolkit</h3>
-      <p>Three deployed apps for third-party risk teams: an exception tracker with ownership and audit trail, a vendor risk scorecard with escalation actions, and a guided onboarding wizard with validation gates.</p>
-      <div class="impact">3 live demos · PRDs, schemas &amp; acceptance criteria</div>
-      <div class="tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Jest/Vitest</span></div>
-      <div class="proj-links"><a href="https://compliance-exception-tracker.vercel.app" target="_blank">Exception tracker →</a><a href="https://vendor-risk-dashboard.vercel.app" target="_blank">Risk dashboard →</a><a href="https://vendor-onboard-stepper.vercel.app" target="_blank">Onboarding →</a></div>
-    </div>
-    <div class="proj">
-      <h3>ERP Connector Prototype</h3>
-      <p>Vendor-facing prototype for defining ERP connectors, entities, mappings, validation rules, lifecycle states, process maps, execution flows, and realistic test data.</p>
-      <div class="impact">Live deployment · full PRD and product specification</div>
-      <div class="tags"><span class="tag">TypeScript</span><span class="tag">Next.js</span><span class="tag">Vercel</span><span class="tag">PRD</span></div>
-      <div class="proj-links"><a href="https://github.com/walvekarn/erp-connector-prototype" target="_blank">GitHub →</a><a href="https://erp-connector-prototype.vercel.app/connectors" target="_blank">Live demo →</a></div>
-    </div>
-    <div class="proj">
-      <h3>AI Todo Application</h3>
-      <p>Full-stack task application with natural-language task creation, priority and due-date handling, real-time search, Supabase persistence, and an n8n + OpenAI workflow.</p>
-      <div class="impact">Live deployment</div>
-      <div class="tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Supabase</span><span class="tag">n8n</span><span class="tag">OpenAI</span></div>
-      <div class="proj-links"><a href="https://github.com/walvekarn/todo-app-challenge" target="_blank">GitHub →</a><a href="https://todo-app-challenge-two.vercel.app" target="_blank">Live demo →</a></div>
-    </div>
-  </div>
-</div></section>
-
-<section id="experience"><div class="wrap">
-  <div class="eyebrow">Experience</div>
-  <h2 class="sec-h">Nine years across regulated operations, analytics, automation, and AI products.</h2>
+<section id="experience" style="background:var(--navy2)"><div class="wrap">
+  <div class="eyebrow">Career</div>
+  <h2 class="sec-h">Nine years across regulated operations, analytics, automation and AI products.</h2>
   <div class="tl">
-    <div class="tl-i"><div class="yr">FEB 2026 — PRESENT</div><b>Founder &amp; Principal AI Consultant</b> · <span class="org">Gate 0 Consulting Studio</span><br/><span class="org">Independent AI-automation practice; led GrowthPro AI go-to-market from Apr–Jun 2026.</span></div>
-    <div class="tl-i"><div class="yr">MAY 2025 — FEB 2026</div><b>Senior Assistant Vice President</b> · <span class="org">Wells Fargo — GenAI &amp; Automation, U.S. Consumer Operations</span></div>
-    <div class="tl-i"><div class="yr">OCT 2022 — MAY 2025</div><b>Assistant Manager, Pricing &amp; Analytics</b> · <span class="org">Diageo — product owner for SAP &amp; Anaplan pricing platforms</span></div>
-    <div class="tl-i"><div class="yr">APR 2022 — SEP 2022</div><b>Pricing Data Analytics Consultant</b> · <span class="org">VARITE, consultant to Diageo</span></div>
-    <div class="tl-i"><div class="yr">OCT 2020 — DEC 2021</div><b>Data Operations Analyst</b> · <span class="org">Rippling — PEO operations &amp; 50-state compliance</span></div>
-    <div class="tl-i"><div class="yr">2019</div><b>Senior Process Associate</b> · <span class="org">ADP — U.S. payroll analytics</span></div>
-    <div class="tl-i"><div class="yr">2018 — 2019</div><b>Senior Process Specialist</b> · <span class="org">Principal Global Services — 401(k) operations</span></div>
-    <div class="tl-i"><div class="yr">2015 — 2018</div><b>Audit &amp; Data Operations Specialist</b> · <span class="org">Yardi Software India</span></div>
-  </div>
-</div></section>
-
-<section id="gate0"><div class="wrap">
-  <div class="eyebrow">Product Approach</div>
-  <h2 class="sec-h">How I take an AI product from an ambiguous problem to a measurable decision.</h2>
-  <p class="sec-i">AI product management is not just feature delivery. The model behavior, quality threshold, human fallback, risk, and business case are part of the product.</p>
-  <div class="g0-grid">
-    <div class="g0-c"><h3>Product layer</h3><ul>
-      <li>Define user problem, workflow, constraints, and success metric</li>
-      <li>Translate discovery into PRD, roadmap, backlog, and release criteria</li>
-      <li>Make tradeoffs explicit across impact, effort, risk, and adoption</li>
-      <li>Instrument KPIs and rollout evidence</li></ul></div>
-    <div class="g0-c"><h3>AI quality layer</h3><ul>
-      <li>Design evals before declaring the model “good”</li>
-      <li>Inspect failure modes by category, not just overall accuracy</li>
-      <li>Set confidence thresholds and human-review routes</li>
-      <li>Build auditability, guardrails, and escalation into the workflow</li></ul></div>
-  </div>
-  <div class="steps">
-    <div class="step"><div class="s">01</div><b>Discover</b><span>Users · workflow · problem</span></div>
-    <div class="step"><div class="s">02</div><b>Define</b><span>PRD · metrics · risks</span></div>
-    <div class="step"><div class="s">03</div><b>Build &amp; evaluate</b><span>Prototype · evals · failure modes</span></div>
-    <div class="step"><div class="s">04</div><b>Roll out</b><span>Guardrails · adoption · KPIs</span></div>
+    <div class="tl-i"><div class="yr">FEB 2026 TO PRESENT</div><b>Founder and Principal AI Consultant</b> · <span class="org">independent practice</span></div>
+    <div class="tl-i"><div class="yr">APR 2026 TO JUN 2026</div><b>GTM Lead (contract), Apr to Jun 2026</b> · <span class="org">GrowthPro AI</span></div>
+    <div class="tl-i"><div class="yr">MAY 2025 TO FEB 2026</div><b>Senior Assistant Vice President, GenAI and Automation, U.S. Consumer Operations</b> · <span class="org">Wells Fargo</span></div>
+    <div class="tl-i"><div class="yr">OCT 2022 TO MAY 2025</div><b>Assistant Manager, Pricing and Analytics</b> · <span class="org">Diageo</span></div>
+    <div class="tl-i"><div class="yr">APR 2022 TO SEP 2022</div><b>Pricing Data Analytics Consultant</b> · <span class="org">VARITE, consultant to Diageo</span></div>
+    <div class="tl-i"><div class="yr">OCT 2020 TO DEC 2021</div><b>Data Operations Analyst</b> · <span class="org">Rippling</span></div>
+    <div class="tl-i"><div class="yr">MAR 2019 TO DEC 2019</div><b>Senior Process Associate</b> · <span class="org">ADP</span></div>
+    <div class="tl-i"><div class="yr">MAR 2018 TO MAR 2019</div><b>Senior Process Specialist</b> · <span class="org">Principal Global Services</span></div>
+    <div class="tl-i"><div class="yr">JAN 2015 TO FEB 2018</div><b>Audit and Data Operations Specialist</b> · <span class="org">Yardi Software India</span></div>
   </div>
 </div></section>
 
 <section id="contact"><div class="wrap">
-  <div class="eyebrow" style="text-align:center">Opportunities</div>
-  <h2>Let's talk about AI product roles.</h2>
-  <p class="sec-i" style="margin:14px auto 0">I'm targeting AI Product Manager and selective Technical Program Manager roles where AI is core to the product, especially enterprise GenAI, agentic workflows, regulated operations, and AI evaluation.</p>
+  <div class="eyebrow" style="text-align:center">Contact</div>
+  <h2>Get in touch</h2>
+  <p class="sec-i" style="margin:14px auto 0">Hiring for an AI PM or TPM role, or want to talk through a build? Email is fastest.</p>
   <div class="contact-row">
-    <a class="btn" href="mailto:walvekarn@gmail.com">Email me →</a>
-    <a class="btn ghost" href="https://www.linkedin.com/in/nikitaw3" target="_blank">Connect on LinkedIn</a>
-    <a class="btn ghost" href="https://github.com/walvekarn" target="_blank">View GitHub</a>
+    <a class="btn" href="mailto:walvekarn@gmail.com">Email me</a>
+    <a class="btn ghost" href="/Nikita_Walvekar_Resume_AI_PM.pdf" download>Download resume</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/nikitaw3" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/walvekarn" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></section>
 
 <footer><div class="wrap">
-  <div>© 2026 Nikita Walvekar · AI Product Manager · Bengaluru, India.</div>
-  <div>walvekarn@gmail.com · <a href="https://www.linkedin.com/in/nikitaw3" target="_blank">LinkedIn</a> · <a href="https://github.com/walvekarn" target="_blank">GitHub</a></div>
+  <div>© 2026 Nikita Walvekar · Bengaluru · open to remote and relocation</div>
+  <div><a href="https://www.linkedin.com/in/nikitaw3" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/walvekarn" target="_blank" rel="noopener">GitHub</a></div>
 </div></footer>
 
 </body>
