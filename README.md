@@ -1,16 +1,20 @@
-# Nikita Walvekar — AI Product Manager Portfolio
+# Nikita Walvekar: AI Project Manager portfolio
 
-Public portfolio for Nikita Walvekar, focused on AI product management, GenAI and agentic systems, enterprise automation, LLM evaluation, human-in-the-loop design, and regulated operations.
+Source for [nikita-portfolio-site.vercel.app](https://nikita-portfolio-site.vercel.app/): a single static page, no build step.
 
-**Live portfolio:** https://nikita-portfolio-site.vercel.app/
+AI Project Manager | Automation & Operations Delivery. 9+ years delivering AI and automation projects in banking, pricing, payroll and compliance operations, from discovery and requirements through rollout and benefits tracking.
 
-## Highlights
+## What the site covers
 
-- 9+ years across regulated operations, analytics, automation, and product delivery
-- Enterprise GenAI product work at Wells Fargo
-- Product ownership for SAP and Anaplan pricing platforms at Diageo
-- Public working prototypes covering agentic compliance, document AI, vendor-risk operations, ERP connectors, and AI workflow automation
-- Hands-on technical stack: Python, FastAPI, SQL, TypeScript, Next.js, Docker, Streamlit, Supabase, REST APIs, pytest/Jest/Vitest
+- Wells Fargo: GenAI complaint-classification project, discovery to production-readiness review
+- Diageo: SAP-to-Anaplan pricing automation, AUD $12M annual value validated by finance
+- Agentic AI Compliance Assistant: public prototype on autonomy rules, human review and audit trail
+- Supporting prototypes: Legal PDF Extractor and the Compliance Ops Toolkit (deployed demos, mock data)
+
+## Files
+
+- `index.html`: the whole site
+- `Nikita_Walvekar_Resume_CV.pdf`: current resume
 
 ## Links
 
